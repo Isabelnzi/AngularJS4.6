@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="utf-8" />
+    <title>Exercice 6</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  <body ng-app>
+    <button type="button"  ng-click="paragraphe1=true; paragraphe2=false">Paragraphe1</button>
+    <button type="button"  ng-click="paragraphe2=false; paragraphe2=true">Paragraphe2</button>
+  <p ng-show="paragraphe1">'L\'Ornithorynque (Ornithorhynchus anatinus) est un animal semi-aquatique endémique de l\'est de l\'Australie, y compris la Tasmanie. C\'est l\'une des cinq espèces de l\'ordre des monotrèmes, seul ordre de mammifères qui pond des œufs au lieu de donner naissance à des petits complètement formés (les quatre autres espèces sont des échidnés). C\'est la seule espèce actuelle de la famille des Ornithorhynchidae et du genre Ornithorhynchus bien qu\'un grand nombre de fragments d\'espèces fossiles de cette famille et de ce genre aient été découverts.
+</p>
+<p ng-show="paragraphe2">
+   C\'est l\'une des cinq espèces de l\'ordre des monotrèmes, seul ordre de mammifères qui pond des œufs au lieu de donner naissance à des petits complètement formés (les quatre autres espèces sont des échidnés). C\'est la seule espèce actuelle de la famille des Ornithorhynchidae et du genre Ornithorhynchus bien qu\'un grand nombre de fragments d\'espèces fossiles de cette famille et de ce genre aient été découverts.
+</p>
+</script>
+  </body>
+</html>
